@@ -1,0 +1,538 @@
+.developer_container{
+    display: flex;
+    padding: 54px 0;
+    @include res-xl{
+        display: block;
+    }
+    .live_account{
+        font-size: 15px;
+        color: #7852E8;
+        background-color: #E8E3FF;
+        padding: 6px 15px;
+        border-radius: 15px;
+        vertical-align: middle;
+        margin-left: 12px;
+        @include res-sm{
+            margin: 15px 0 15px 0;
+            display: block;
+
+        }
+    }
+    .developer_content{
+        padding: 82px 24px 0;
+        flex: 1 1 calc(100% - 300px);
+        margin-left: 300px;
+        @include res-xl{
+            margin: 0 auto;
+        }
+        .developer_section{
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+
+            .title_area{
+                margin-bottom: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &.detail{
+                    justify-content: flex-start;
+                    margin-bottom: 62px;
+                    @include res-sm{
+                        flex-direction: row;
+                    }
+                    .title{
+                        color: #1F1F1F;
+                        font-weight: 500;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                        a{
+                            color: inherit;
+                        }
+                        + span{
+                            margin-left: 22px;
+                            @include res-sm{
+                                margin-left: 15px;
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                    span{  font-size: 30px;
+                        font-weight: 700;
+                        i{
+                            margin-right: 22px;
+                            @include res-sm{
+                                margin-right: 10px;
+                            }
+                        }
+                        a{
+                            color: #1F1F1F;
+                        }
+                    }
+                }
+                .title{
+                    position: relative;
+                    font-size: 30px;
+                    font-weight: 700;
+                    @include res-sm{
+                        font-size: 24px;
+                        margin-bottom: 20px;
+                    }
+                    &.test{
+                        &:before{
+                            position: absolute;
+                            content: 'TEST';
+                            font-size: 13px;
+                            font-weight: bold;
+                            right: -35px;
+                            top: 0;
+                            color: #62BB00;
+                        }
+                        + span{
+                            margin-left: 53px;
+                            font-size: 30px;
+                            font-weight: 700;
+                            @include res-sm{
+                                margin-left: 44px;
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+                .guide_link{
+                    color: #0086F1;
+                    span{
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+            > .title_area{
+                @include res-sm{
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-bottom: 30px;
+                }
+            }
+            .input__area{
+                margin-bottom: 60px;
+                .input_title{
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                .input_copy_box{
+                    position: relative;
+                    display: flex;
+                    label{
+                        flex: 1 1 auto;
+                        input{
+                            font-size: 17px;
+                        }
+                    }
+                    .icon{
+                        cursor: pointer;
+                        margin-left: 20px;
+                        &:hover{
+                            background-image: url("https://image.payple.kr/onboard/icon/ico_copy_active.png");
+                        }
+                    }
+
+                }
+                &.input_one__button__area{
+                    flex: 1 1 auto;
+                    .input_title{
+                        @include res-sm{
+                            margin-bottom: 8px;
+                        }
+                    }
+                }
+                .input_one__button{
+                    display: flex;
+                    justify-content: space-between;
+                    @include res-sm{
+                        flex-direction: column;
+                    }
+                    label{
+                        flex: 1 1 auto;
+                    }
+                    button{
+                        margin-left: 24px;
+                        min-width: 102px;
+                        &:hover{
+                            border: 1px solid #7852E8;
+                            color: #7852E8;
+                            background-color: #E8E3FF;
+                        }
+                        @include res-sm{
+                            margin-top: 42px;
+                            width: 100%;
+                            margin-left: 0;
+                        }
+                    }
+
+                }
+            }
+            .caption_text{
+                margin-top: 12px;
+                color: #BABAC2;
+                font-size: 15px;
+                word-break: keep-all;
+                line-height: 1.3;
+                position: relative;
+                margin-left: 20px;
+                &:before{
+                    background-image: url("https://image.payple.kr/onboard/icon/ico_alert_white_gray.png");
+                    width: 13px;
+                    height: 13px;
+                    position: absolute;
+                    content: '';
+                    display: inline-block;
+                    top: 3px;
+                    left: -20px;
+                    background-repeat: no-repeat;
+                    vertical-align: middle;
+                    background-position: center center;
+                    text-indent: -999em;
+                    overflow: hidden;
+                    background-size: cover;
+
+                }
+                @include res-sm{
+                    font-size: 15px;
+                    width: 80%;
+                }
+                span{
+                    vertical-align: middle;
+                }
+                .icon{
+                    margin-right: 10px;
+                }
+            }
+            .developer_card{
+                border: 1px solid #ced4da;
+                border-radius: 15px;
+                padding: 24px;
+                .title_area{
+                    margin-bottom: 20px;
+                    .title{
+                        font-size: 18px;
+                        @include res-sm{
+                            margin-bottom: 0;
+                        }
+                        &:before{
+                            font-size: 9px;
+                            right: -28px;
+                        }
+                    }
+
+                }
+                .pagination_area{
+                    padding: 40px 0 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .pagination_list{
+                        display: flex;
+                        >li{
+                            font-size: 15px;
+                            cursor: pointer;
+                            color: #BABAC2;
+                            margin-left: 20px;
+                            &.active{
+                                font-weight: 700;
+                            }
+                            &:nth-last-child(1){
+                                margin-right: 20px;
+                            }
+                        }
+
+                    }
+                    .pagination_arrow {
+                        cursor: pointer;
+                        &.first_button{
+                            margin-right: 10px;
+                        }
+                        &.last_button{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                .input__area__list{
+                    display: flex;
+                    &.one_line{
+                        .btn_area{
+                            margin-top: 43px;
+                            flex: 1 1 10%;
+                            .btn{
+                                margin-right: 0;
+                            }
+                        }
+                        @include res-lg{
+                            flex-direction: column;
+                        }
+                    }
+                    .input__area{
+                        margin-bottom: 0;
+                        &.url{
+                            flex: 1 1 60%;
+                            .validation_area{
+                                margin-top: 5px;
+                            }
+                        }
+                        &.data{
+                            flex: 1 1 40%;
+                            margin-right: 24px;
+                            .caption_text{
+                                margin-top: 5px;
+                                font-size: 13px;
+                                margin-left: 14px;
+                                &:before{
+                                    text-indent: inherit;
+                                    left: -10px;
+                                    content: '*';
+                                    top: 1px;
+                                    background-image: none;
+                                }
+                            }
+                            @include res-md{
+                                margin-right: 0;
+                                margin-bottom: 20px;
+                            }
+                        }
+                        &.default{
+                            flex: 0 0 20%;
+                            margin-right: 24px;
+                            @include res-lg{
+                              margin-right: 0;margin-bottom: 20px;
+                                .input_title{
+                                    margin-bottom: 8px;
+                                }
+                            }
+                        }
+                        &.update_date{
+                            flex: 0 0 35%;
+                            @include res-lg{
+                                margin-right: 0;
+                                .input_title{
+                                    margin-bottom: 8px;
+                                }
+                            }
+                        }
+                        .input_title{
+                            font-size: 15px;
+                            font-weight: 500;
+                        }
+                        .input_copy_box{
+                            position: relative;
+                            display: flex;
+                            label{
+                                flex: 1 1 auto;
+                                input{
+                                    font-size: 17px;
+                                }
+                            }
+                            .icon{
+                                cursor: pointer;
+                                margin-left: 20px;
+                                &:hover{
+                                    background-image: url("https://image.payple.kr/onboard/icon/ico_copy_active.png");
+                                }
+                            }
+
+                        }
+                        .select_box{
+                            padding: 13px 12px;
+                        }
+                    }
+                    @include res-md{
+                        flex-direction: column;
+                        .input__area{
+                            &.name{
+                                flex: 1 1 100%;
+                                margin-right:0;
+                                margin-bottom: 20px;
+                                .input_title{
+                                    margin-bottom: 8px;
+                                }
+                            }
+                            &.url{
+                                flex: 1 1 100%;
+                                margin-right:0;
+                                margin-bottom: 20px;
+                                .input_title{
+                                    margin-bottom: 8px;
+                                }
+                            }
+                            &.data{
+                                .input_title{
+                                    margin-bottom: 8px;
+                                }
+                            }
+
+
+                        }
+                    }
+                }
+                +.developer_card{
+                    margin-top: 60px;
+                }
+                .btn_area{
+                    margin-top: 60px;
+                    display: flex;
+                    justify-content: flex-end;
+                    .btn_secondary{
+                        font-size: 15px;
+                        min-width: 102px;
+                        &:hover{
+                            border: 1px solid #7852E8;
+                            color: #7852E8;
+                            background-color: #E8E3FF;
+                        }
+                        &:first-child{
+                            margin-right: 10px;
+                        }
+                    }
+                    @include res-sm{
+                        margin-top: 42px;
+                        justify-content: space-between;
+                        .btn_secondary{
+                            min-width: auto;
+                            flex: 1 1 50%;
+                        }
+                    }
+                }
+            }
+            .search_result_area{
+                .title_area{
+                    margin-bottom: 20px;
+                    .title{
+                        font-size: 18px;
+                    }
+
+                }
+                .border_line{
+                    border-radius: 15px;
+                    overflow: hidden;
+                    border: 1px solid #ced4da;
+                    .response_table{
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    .pagination_area{
+                        padding: 40px 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .pagination_list{
+                            display: flex;
+                            >li{
+                                font-size: 15px;
+                                cursor: pointer;
+                                color: #BABAC2;
+                                margin-left: 20px;
+                                &.active{
+                                    font-weight: 700;
+                                }
+                                &:nth-last-child(1){
+                                    margin-right: 20px;
+                                }
+                            }
+
+                        }
+                        .pagination_arrow {
+                            cursor: pointer;
+                            &.first_button{
+                                margin-right: 10px;
+                            }
+                            &.last_button{
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+
+                }
+                table{
+                    width: 100%;
+                    th{
+                        padding: 11px 10px;
+                        background-color: #F6F6F6;
+                        text-align: center;
+                        color: #52525B;
+                        font-weight: 500;
+                        &.check_table{
+                            text-align: center;
+                        }
+                    }
+                    td{
+                        border-bottom: 1px solid #F0F0F0;
+                        padding: 11px 10px;
+                        text-align: center;
+                        &.check_table{
+                            text-align: center;
+                        }
+                        &.empty_data{
+                            text-align: center;
+                            padding: 55px 0;
+                            border-bottom: none;
+                            &.no_search{
+                                padding: 90px 0;
+                                color: #52525B;
+                            }
+                        }
+                        &.name_data{
+                            a{
+                                text-decoration: underline;
+                                color: #0086F1;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+            .detail__area{
+                margin-bottom: 40px;
+                .title{
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                }
+                ul{
+                    color: #52525B;
+                    font-size: 15px;
+                    li{
+                        margin-bottom: 10px;
+                        &:nth-last-child(1){
+                            margin-bottom: 0;
+                        }
+                    }
+                    .list_title{
+                        display: inline-block;
+                        width: 72px;
+                        margin-right: 20px;
+
+
+                    }
+                    .list_desc{
+
+                    }
+                }
+            }
+            .transmission_history_area{
+                margin-bottom: 30px;
+                .title{
+                    font-weight: 700;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+            }
+
+        }
+    }
+
+
+
+
+}

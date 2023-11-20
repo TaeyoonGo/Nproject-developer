@@ -1,0 +1,1518 @@
+/*공통으로 사용되는 css 모음 입니다.*/
+
+/*font*/
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+    font-family: 'Pretendard-Regular', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1f1f1f;
+    height: 100%;
+    //-ms-overflow-style: none;
+    //::-webkit-scrollbar {
+    //    display: none;
+    //}
+}
+
+
+/*layout*/
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.pt-5 {
+    padding-top: 5px !important;
+}
+
+.pt-12 {
+    padding-top: 12px;
+}
+
+.pb-24 {
+    padding-bottom: 24px !important;
+}
+
+.mb-90 {
+    margin-bottom: 90px !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.pt-10 {
+    padding-top: 10px !important;;
+}
+
+.pb-20 {
+    padding-bottom: 20px !important;;
+}
+
+.pt-48 {
+    padding-top: 48px !important;
+}
+
+
+.pb-50 {
+    padding-bottom: 50px !important;
+}
+
+.mb-170 {
+    margin-bottom: 170px !important;
+}
+
+/*text_align*/
+.text_center {
+    text-align: center !important;
+}
+
+.text_left {
+    text-align: left !important;
+}
+
+.text_right {
+    text-align: right !important;
+}
+
+/*width*/
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+
+/*validation 관련 */
+.validation_area {
+    margin-left: 14px;
+    visibility: hidden;
+    display: none;
+}
+
+.validation_area.show {
+    visibility: visible;
+    display: block !important;
+}
+
+.validation {
+    font-size: 14px;
+    line-height: 19px;
+    word-break: break-all;
+    position: relative;
+}
+
+.validation:after {
+    position: absolute;
+    content: '*';
+    display: inline-block;
+    top: 2px;
+    left: -14px;
+}
+
+/*img*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*input*/
+.form_label {
+    position: relative;
+    cursor: pointer;
+
+    &.file_custom {
+        .form_control {
+            &::file-selector-button {
+                display: none;
+            }
+        }
+
+        .icon_area {
+            top: 50%;
+            transform: translateY(-50%);
+            right: 6px;
+            position: absolute;
+            display: inline-block;
+            background-color: #F0F0F0;
+            border-radius: 7px;
+            width: 35px;
+            height: 33px;
+
+            &:hover {
+                background-color: #DDDDE3;
+            }
+
+            .icon {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+    }
+}
+
+.form_control {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 7px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    box-sizing: border-box;
+
+    &.mo_ellipsis {
+        @include res-sm {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+}
+
+.form_control:focus {
+    border: 1px solid #7852E8;
+    outline: none;
+}
+
+.form_control::placeholder {
+    font-size: 14px;
+    color: #BABAC2;
+}
+
+.form_control:disabled {
+    border: 1px solid #d2d2d2;
+    background-color: #ECECEC;
+}
+
+.input__area {
+    margin-bottom: 42px;
+}
+
+
+/*a태그*/
+a {
+    text-decoration: none;
+}
+
+/*color*/
+.color_primary {
+    color: #7852E8;
+}
+
+.color_danger {
+    color: #FF3131;
+}
+
+.border_danger {
+    border-color: #ff3131;
+}
+
+
+/*font-weight*/
+.font_weight_regular {
+    font-weight: 400 !important;
+}
+
+.font_weight_bold {
+    font-weight: 700;
+}
+
+/*position */
+
+.position_absolute {
+    position: absolute;
+}
+
+.position_relative {
+    position: relative;
+}
+
+/* radio & checkbox */
+.radio_custom_btn, .checkbox_custom_btn {
+    cursor: pointer;
+}
+
+[type="radio"], [type="checkbox"] {
+    appearance: none;
+    display: none;
+    vertical-align: middle;
+}
+
+.ico_radioBox + span {
+    vertical-align: middle;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 4px;
+}
+
+[type="radio"] + .ico_radioBox {
+    background-position: center top;
+}
+
+[type="radio"]:checked + .ico_radioBox {
+    background-position: center center;
+}
+
+[type="radio"]:disabled + .ico_radioBox {
+    background-position: center bottom;
+}
+
+.ico_checkBox + span {
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+[type="checkbox"] + .ico_checkBox {
+    cursor: pointer;
+    background-position: center top;
+}
+
+[type="checkbox"]:checked + .ico_checkBox {
+    background-position: center -20px;
+}
+
+[type="checkbox"]:disabled + .ico_checkBox {
+    background-position: center -40px;
+}
+
+/*공통 모달*/
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    background: rgba(0, 0, 0, 0.4);
+
+    opacity: 0;
+    display: none;
+    transition: all 0.2s;
+
+    &.filter_non {
+        backdrop-filter: none;
+    }
+
+    &.fade {
+        opacity: 1;
+    }
+
+    &.show {
+        display: block;
+    }
+}
+
+.modal_dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 15px;
+
+    &.modal_xl {
+        width: 900px;
+
+        &.modal_checkbox {
+            .modal_header {
+                margin-bottom: 0;
+                @include res-sm {
+                    padding: 26px 12px;
+                }
+
+                .main_title {
+                    @include res-sm {
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .ico_close_btn {
+                @include res-sm {
+                    top: 20px;
+                    right: 15px;
+                }
+            }
+
+            .modal_body {
+                @include res-sm {
+                    padding: 20px 12px;
+                }
+            }
+        }
+
+        .modal_header {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .ico_close_btn {
+            position: absolute;
+            top: 22px;
+            right: 20px;
+        }
+
+        .modal_title {
+            font-size: 20px;
+            font-weight: 700;
+            @include res-sm {
+                font-size: 18px;
+            }
+        }
+
+        .modal_body {
+            overflow-y: auto;
+            max-height: calc(80vh - 140px);
+            padding: 20px 30px 40px;
+            @include res-sm {
+                max-height: calc(80vh - 100px);
+            }
+        }
+    }
+
+    &.modal_confirm {
+        width: 480px;
+        @include res-sm {
+            width: 90%;
+        }
+
+        .modal_header {
+            text-align: right;
+            padding: 15px 20px;
+        }
+
+        .modal_body {
+            padding: 0;
+
+            .title {
+                font-size: 20px;
+                text-align: center;
+                line-height: 28px;
+                font-weight: 900;
+                @include res-sm {
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .modal_footer {
+            text-align: center;
+            padding: 40px 0 40px;
+
+            .btn {
+                font-size: 18px;
+                font-weight: 400;
+                padding: 8px 12px;
+                width: 80px;
+            }
+        }
+    }
+
+    &.modal_md {
+        width: 680px;
+
+        .modal_header {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &.modal_confirmation {
+        width: 680px;
+        @include res-sm {
+            width: 90%;
+        }
+
+        .modal_header {
+            display: flex;
+            justify-content: space-between;
+            @include res-sm {
+                padding: 25px 25px 0 25px;
+                align-items: center;
+            }
+
+            .modal_title {
+                @include res-sm {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .confirm_title {
+            @include res-sm {
+                margin-bottom: 10px;
+            }
+        }
+
+        .confirm_list {
+            margin-bottom: 26px;
+            @include res-sm {
+                flex-direction: column;
+                margin-bottom: 32px;
+            }
+        }
+
+        .modal_body {
+            overflow-y: auto;
+            padding: 20px 30px;
+            max-height: calc(80vh - 100px);
+
+            .confirm_desc {
+                .confirm_desc_title {
+                    @include res-sm {
+                        flex: 0 0 40%;
+                    }
+                }
+            }
+        }
+
+        .modify_text {
+            padding: 20px 30px 0;
+        }
+    }
+
+    &.modal_sm {
+        width: 410px;
+        @include res-sm {
+            width: 90%;
+        }
+    }
+
+    &.modal_table {
+        width: 90%;
+
+        .modal_header {
+            padding: 20px;
+            position: relative;
+            margin-bottom: 0;
+        }
+
+        .ico_close_btn {
+            position: absolute;
+            top: 14px;
+            right: 20px;
+        }
+
+        .modal_title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .modal_desc {
+            font-size: 14px;
+            color: #85858F;
+            line-height: 1.3;
+        }
+
+        .modal_body {
+            overflow-y: auto;
+            max-height: calc(80vh - 140px);
+            padding: 20px 20px 40px;
+            @include res-sm {
+                max-height: calc(80vh - 100px);
+            }
+        }
+
+        .modal_table_title {
+            font-size: 15px;
+            color: #7852E8;
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        .modal_footer {
+            text-align: right;
+            padding: 20px;
+
+            .btn {
+                padding: 10px 20px;
+            }
+        }
+
+        .table_layout {
+            width: 100%;
+            margin-bottom: 50px;
+
+            .table_row {
+                display: flex;
+                border-bottom: 1px solid #D2D2D2;
+
+                &.line3 {
+                    div {
+                        flex: 1 1 50%;
+                    }
+                }
+
+                &:first-child {
+                    border-top: 1px solid #7852E8;
+                }
+
+                div {
+                    padding: 10px 0;
+                    font-size: 13px;
+                    flex: 1 1 20%;
+                    text-align: center;
+
+                    &:first-child {
+                        font-weight: 700;
+                        padding-left: 5px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+
+    &.modal_date_range {
+        width: max-content;
+
+        .daterangepicker {
+            margin: 0;
+            border: transparent;
+            position: static;
+            @include res-lg {
+                display: flex !important;
+                flex-direction: column;
+            }
+
+            .drp-calendar {
+                max-width: none;
+                min-height: 380px;
+                @include res-lg {
+                    min-height: 340px;
+                }
+                @include res-sm {
+                    min-height: 350px;
+                }
+
+                &.left {
+                    padding: 30px 15px 0 30px;
+                    @include res-lg {
+                        padding: 15px 30px 0;
+                    }
+                    @include res-sm {
+                        padding: 0;
+                    }
+                }
+
+                &.right {
+                    padding: 30px 30px 0 15px;
+                    @include res-lg {
+                        padding: 0 30px 15px;
+                    }
+                    @include res-sm {
+                        padding: 0;
+                    }
+                }
+            }
+
+            .calendar-table {
+                padding: 0;
+            }
+
+            table {
+                thead {
+                    tr {
+                        .prev, .next {
+
+                            span {
+
+                                &:before {
+
+                                }
+                            }
+                        }
+
+                        //요일
+                        &:nth-child(2) {
+                            th {
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+
+                tr {
+                    //달력에 추가 되는곳
+                    .off {
+                        color: #BABAC2;
+
+                        &.ends {
+                            visibility: hidden;
+                        }
+                    }
+
+                    th, td {
+                        width: 50px;
+                        height: 40px;
+                        font-size: 16px;
+
+                        &.active {
+                            color: #fff;
+                            background-color: #7852E8;
+                            font-weight: 700;
+                        }
+
+                        &.in-range {
+                            background-color: #F0EBFF;
+                            color: #52525B;
+
+                            &.start-date {
+                                color: #fff;
+                                background-color: #7852E8;
+                                font-weight: 700;
+                            }
+
+                            &.end-date {
+                                color: #fff;
+                                background-color: #7852E8;
+                                font-weight: 700;
+                            }
+
+                        }
+                    }
+
+                    th {
+                        &:nth-child(1) {
+                            color: #FF3131;
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        &.one_calender {
+            .daterangepicker {
+                margin: 0;
+                border: transparent;
+                position: static;
+                @include res-lg {
+                    display: flex !important;
+                    flex-direction: column;
+                }
+
+                .drp-calendar {
+                    max-width: none;
+                    min-height: 0;
+                    @include res-lg {
+                        min-height: 0;
+                    }
+                    @include res-sm {
+                        min-height: 0;
+                    }
+
+                    &.left {
+                        position: absolute;
+                        padding: 0;
+
+                        thead {
+                            .month {
+                                display: none;
+                            }
+
+                            .prev {
+                                width: 50px;
+                                height: 40px;
+                                position: absolute;
+                                top: 32px;
+                                left: 30px;
+                                text-align: center;
+                                line-height: 35px;
+                                vertical-align: middle;
+                                @include res-lg {
+                                    top: 38px;
+                                }
+                                @include res-sm {
+                                    top: 10px;
+                                    left: 0;
+                                }
+                            }
+
+                            tr {
+                                &:nth-child(1) {
+                                    th {
+                                        &:last-child {
+                                            display: none;
+                                        }
+                                    }
+                                }
+
+                                //요일
+                                &:nth-child(2) {
+                                    display: none;
+
+                                    th {
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                        }
+
+                        tbody {
+                            display: none;
+                        }
+
+                        @include res-lg {
+                            padding: 0;
+                        }
+                        @include res-sm {
+                            padding: 0;
+                        }
+                    }
+
+                    &.right {
+                        padding: 30px;
+                        @include res-lg {
+                            padding: 30px;
+                        }
+                        @include res-sm {
+                            padding: 0;
+                        }
+                    }
+                }
+
+                .calendar-table {
+                    padding: 0;
+                }
+
+                table {
+
+
+                    tr {
+                        //달력에 추가 되는곳
+                        .off {
+                            color: #BABAC2;
+
+                            &.ends {
+                                visibility: hidden;
+                            }
+                        }
+
+                        th, td {
+                            width: 50px;
+                            height: 40px;
+                            font-size: 16px;
+
+                            &.active {
+                                color: #fff;
+                                background-color: #7852E8;
+                                font-weight: 700;
+                            }
+
+                            &.in-range {
+                                background-color: #F0EBFF;
+                                color: #52525B;
+
+                                &.start-date {
+                                    color: #fff;
+                                    background-color: #7852E8;
+                                    font-weight: 700;
+                                }
+
+                                &.end-date {
+                                    color: #fff;
+                                    background-color: #7852E8;
+                                    font-weight: 700;
+                                }
+
+                            }
+                        }
+
+                        th {
+                            &:nth-child(1) {
+                                color: #FF3131;
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+.modal_header {
+    padding: 40px 30px 0;
+}
+
+.modal_body {
+    padding: 40px 30px;
+}
+
+.modal_content.alert_modal_content {
+    box-shadow: 0 0 20px hsla(0, 0%, 74.9%, 0.2);
+
+    .modal_body {
+        .icon {
+            margin-bottom: 9px;
+        }
+
+        .title {
+            font-size: 18px;
+            margin-bottom: 12px;
+            line-height: 25px;
+        }
+
+        .desc {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    .modal_footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            all: unset;
+            width: 50%;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 16px 0;
+            text-align: center;
+
+            &:first-child {
+                color: #fff;
+                background-color: #FF5B5B;
+            }
+
+            &:last-child {
+                color: #52525B;
+                background-color: #DDDDE3;
+            }
+        }
+    }
+}
+
+.header {
+    &.developer_center {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        z-index: 1000;
+
+        .header__container {
+            padding: 0 20px;
+            max-width: none;
+
+            .aside_button {
+                cursor: pointer;
+                display: none;
+
+                &.active {
+                    div {
+                        &:first-child {
+                            transform: rotate(-45deg) translate(-6px, 5px);
+                        }
+
+                        &:nth-child(2) {
+                            opacity: 0;
+                        }
+
+                        &:last-child {
+                            transform: rotate(45deg) translate(-8px, -7px);
+                        }
+                    }
+
+                }
+
+                div {
+                    border: 1px solid #BABAC2;
+                    width: 22px;
+                    height: 2px;
+                    transition: all 0.3s;
+
+                    &:nth-child(2) {
+                        margin-top: 7px;
+                        margin-bottom: 7px;
+                    }
+
+                }
+
+                @include res-xl {
+                    display: block;
+                }
+            }
+
+        }
+
+        .header__navi {
+            .text {
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+
+        .header__logo {
+            margin-right: 10px;
+        }
+
+    }
+}
+
+
+/*header*/
+.header {
+    width: 100%;
+    height: 54px;
+    box-shadow: 0 0 20px hsla(0, 0%, 74.9%, .2);
+}
+
+.header .header__container {
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 54px;
+}
+
+.header .header__logo {
+    width: 70px;
+    height: auto;
+    font-size: 0;
+    line-height: 0;
+    margin-right: 70px;
+}
+
+.header .header__navi {
+    display: flex;
+    align-items: center;
+}
+
+.header .header__navi__link {
+    display: flex;
+    @include res-sm {
+        display: none;
+    }
+}
+
+.header .header__navi__link li {
+    margin-right: 40px;
+    color: #28282E;
+}
+
+.header .header__navi__link a {
+    color: #28282E;
+
+    &:hover {
+        color: #28282e;
+        text-decoration: none;
+    }
+}
+
+.header .header__navi__link li:last-child {
+    margin-right: 0;
+}
+
+.header .header__account_btn {
+    width: 32px;
+    height: auto;
+}
+
+.header .header__account_info {
+    min-width: 140px;
+    display: none;
+    right: 0;
+    top: 50px;
+    padding: 15px;
+    border-radius: 12px;
+    z-index: 1005;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.19);
+
+    &.show {
+        display: block;
+    }
+}
+
+.header .header__account_info li {
+    font-size: 15px;
+}
+
+.header .header__account_info li:first-child {
+    font-size: 12px;
+    padding: 12px 0;
+    color: #85858F;
+}
+
+.header .header__account_info li:first-child span{
+    margin: 0;
+}
+
+.header .header__account_info li:first-child:hover {
+    background-color: #fff;
+}
+
+.header .header__account_info li:hover {
+    background-color: #F0F0F0;
+    border-radius: 8px;
+}
+
+.header .header__account_info a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0;
+    height: 100%;
+}
+
+.header .header__account_info span {
+    vertical-align: middle;
+    margin-left: 6px;
+    color: #1f1f1f;
+}
+
+/*progressbar*/
+.progress_value {
+    width: 100%;
+    appearance: none;
+}
+
+.progress_value::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 4px;
+    height: 4px;
+    /*box-shadow: inset 3px 3px 10px #ccc;*/
+}
+
+.progress_value::-webkit-progress-value {
+    border-radius: 4px;
+    background: #1D976C;
+    height: 4px;
+    background: linear-gradient(to right, rgba(154, 217, 253, 100%), rgba(120, 82, 232, 100%));
+
+}
+
+
+.select_box {
+    position: relative;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 15px 12px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+
+    .icon {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &.active {
+        border: 1px solid #7852E8;
+
+        .options {
+            display: block;
+            overflow-y: auto;
+
+        }
+
+        .icon {
+            background-image: url("https://image.payple.kr/onboard/icon/ico_select_arrow_up.png");
+        }
+    }
+
+    .select_value {
+        background-color: #fff;
+        color: rgb(31, 31, 31);
+    }
+
+    .options {
+        max-height: 162px;
+        top: 48px;
+        left: 0;
+        display: none;
+        position: absolute;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        z-index: 1000;
+        border-radius: 7px;
+        overflow: auto;
+
+        .option {
+            padding: 12px 10px;
+            font-size: 16px;
+
+
+            background-color: #fff;
+
+            &:hover {
+                background-color: #f0f0f0;
+            }
+        }
+
+    }
+}
+
+/*반응형*/
+@media all and (max-width: 899.98px) {
+    .modal_dialog.modal_xl {
+        width: 90%;
+    }
+}
+
+
+@media all and (max-width: 479px) {
+    .validation {
+        font-size: 12px;
+    }
+}
+
+
+.mo_show {
+    display: none !important;
+    @include res-sm {
+        display: block !important;
+    }
+}
+
+.pc_show {
+    display: block !important;
+    @include res-sm {
+        display: none !important;
+    }
+}
+
+.tablet_show {
+    display: block;
+    @include res-md {
+        display: none !important;
+    }
+}
+
+
+/*테이블*/
+.response_table {
+    color: #52525b;
+    display: block;
+    margin: 0 -24px;
+    width: calc(100% + 48px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    table {
+        width: 100%;
+        white-space: nowrap;
+
+        th {
+            padding: 11px 10px;
+            background-color: #F6F6F6;
+            text-align: left;
+            color: #52525B;
+            font-weight: 500;
+            font-size: 15px;
+            white-space: nowrap;
+
+            &.check_table {
+                text-align: center;
+            }
+        }
+
+        td {
+            font-size: 15px;
+            border-bottom: 1px solid #F0F0F0;
+            padding: 11px 10px;
+            white-space: nowrap;
+
+            &.check_table {
+                text-align: center;
+            }
+
+            &.empty_data {
+                text-align: center;
+                padding: 55px 0;
+                border-bottom: none;
+
+            }
+
+            &.name_data {
+                a {
+                    text-decoration: underline;
+                    color: #0086F1;
+                }
+            }
+        }
+    }
+
+}
+
+//aside
+.aside {
+    background-color: #F6F6F6;
+    padding: 84px 20px 60px;
+    width: 300px;
+    position: fixed;
+    top: 54px;
+    height: calc(100vh - 54px);
+    transition: all 0.3s;
+
+    z-index: 900;
+    @include res-xl {
+        transform: translateX(-300px);
+        &.show {
+            transform: translateX(0px);
+        }
+    }
+
+
+    .sub_title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .layout {
+        margin-bottom: 50px;
+
+        &:nth-last-child(1) {
+            padding-top: 50px;
+            border-top: 1px solid #DBDBDB;
+        }
+
+        .link_lists {
+            .active {
+                border-radius: 8px;
+                background-color: #F0F0F0;
+
+                .icon {
+                    &.ico_key {
+                        background-image: url("https://image.payple.kr/onboard/icon/ico_key_active.png");
+                    }
+
+                    &.ico_paper_plane {
+                        background-image: url("https://image.payple.kr/onboard/icon/ico_paper_plane_active.png");
+                    }
+
+                    &.ico_shield_check {
+                        background-image: url("https://image.payple.kr/onboard/icon/ico_shield_check_active.png");
+                    }
+
+                    &.ico_document_sign {
+                        background-image: url("https://image.payple.kr/onboard/icon/ico_document_sign_active.png");
+                    }
+
+                    &.ico_book_alt {
+                        background-image: url("https://image.payple.kr/onboard/icon/ico_book_alt_active.png");
+                    }
+
+                    &.ico_interrogation {
+                        background-image: url("https://image.payple.kr/onboard/icon/ico_interrogation_active.png");
+                    }
+
+                    &.ico_github {
+                        background-image: url("https://image.payple.kr/onboard/icon/ico_github_active.png");
+                    }
+                }
+            }
+
+
+            .link {
+                .icon {
+                    margin-right: 10px;
+                    padding-left: 10px;
+                    margin-left: 10px;
+                }
+
+                &:hover {
+                    border-radius: 8px;
+                    background-color: #F0F0F0;
+
+                    .icon {
+                        &.ico_key {
+                            background-image: url("https://image.payple.kr/onboard/icon/ico_key_active.png");
+                        }
+
+                        &.ico_paper_plane {
+                            background-image: url("https://image.payple.kr/onboard/icon/ico_paper_plane_active.png");
+                        }
+
+                        &.ico_shield_check {
+                            background-image: url("https://image.payple.kr/onboard/icon/ico_shield_check_active.png");
+                        }
+
+                        &.ico_document_sign {
+                            background-image: url("https://image.payple.kr/onboard/icon/ico_document_sign_active.png");
+                        }
+
+                        &.ico_book_alt {
+                            background-image: url("https://image.payple.kr/onboard/icon/ico_book_alt_active.png");
+                        }
+
+                        &.ico_interrogation {
+                            background-image: url("https://image.payple.kr/onboard/icon/ico_interrogation_active.png");
+                        }
+
+                        &.ico_github {
+                            background-image: url("https://image.payple.kr/onboard/icon/ico_github_active.png");
+                        }
+                    }
+                }
+
+                a {
+                    padding: 16px 10px 16px 0px;
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    color: #52525B;
+
+                }
+
+            }
+        }
+    }
+
+}
+
+.input__date {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+
+    i {
+        cursor: pointer;
+    }
+
+}
+
+//file custom
+.file_custom {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 7px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    box-sizing: border-box;
+
+    .icon_area {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        cursor: pointer;
+    }
+
+    .file_name {
+        text-align: left;
+        display: inline-block;
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #BABAC2;
+        vertical-align: middle;
+    }
+}
+
+
+.alert_popup {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 360px;
+    padding: 10px;
+    border-radius: 7px;
+    transition: all 0.3s;
+    visibility: hidden;
+
+    p {
+        font-size: 14px;
+        text-align: center;
+
+        .text {
+            vertical-align: middle;
+            visibility: hidden;
+        }
+    }
+
+    i {
+        width: 14px;
+        height: 14px;
+        margin-right: 5px;
+    }
+
+    &.primary {
+        visibility: visible;
+        background-color: #F0EDFF;
+        color: #7852E8;
+
+        .text {
+            visibility: visible;
+        }
+
+        i {
+            background-image: url('https://image.payple.kr/onboard/icon/ico_check_purple.png');
+        }
+    }
+
+    &.danger {
+        visibility: visible;
+        background-color: #FFF1F1;
+        color: #FF3131;
+
+        .text {
+            visibility: visible;
+        }
+
+        i {
+            background-image: url('https://image.payple.kr/onboard/icon/ico_alert_red.png');
+        }
+    }
+
+    @include res-xl {
+        position: fixed;
+        left: 50%;
+        top: 80px;
+    }
+}
