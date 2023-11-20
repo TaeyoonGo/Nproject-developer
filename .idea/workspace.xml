@@ -2,14 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e393387-09ad-4c69-8bef-d91e41afbf08" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagelist/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/pagelist/data/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagelist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pagelist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagelist/scss/page/admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pagelist/scss/page/admin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/결제수단선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/결제수단선택_국내선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/결제수단선택_해외선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/계약담당자정보_입력.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/국내결제서비스선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/국내완료.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/사업자번호확인.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/서비스정보입력-추가신청.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/서비스정보입력.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/서비스정보입력_모달.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/최종확인.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/해외결제서비스선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/join/해외완료.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/가입하기.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/계정설정.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/계정설정_비밀번호.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/로그인.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/비밀번호 재설정_비밀번호 변경 완료.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/비밀번호_재설정_비밀번호_변경.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/비밀번호_재설정_이메일_발송.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/비밀번호_재설정_이메일_주소.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/이메일_인증_만료.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/이메일인증완료.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/login/이메일인증하기.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/가이드페이지.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/국내해외이용중_사업자1개.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/국내해외이용중_사용자2개이상.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/오픈후_사업자전체정지.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/오픈후_서비스신청작성중.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/오픈후_신청_작성중_삭제.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/오픈후_일부서비스정지.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/오픈후_추가신청.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/최초신청.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/최초신청_작성중.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/최초신청_작성중_삭제.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/최초신청후_1건이라도_계약_완료.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/최초신청후_심사중.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/최초신청후_심사중_계약중.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/main/최초신청후_입점불가.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/관리자초대_권한삭제.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/관리자초대_수정.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/관리자초대_초대관리자없음.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/관리자초대_초대관리자있음.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/관리자초대_초대수락완료.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/상점관리자_초대완료_관리자없음.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/상점관리자_초대완료_관리자있음.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/상점관리자_초대완료_상세보기.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/통합관리자_초대완료_관리자없음.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/통합관리자_초대완료_관리자있음.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/membership/통합관리자_초대완료_상세보기.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_join.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_login.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_membership.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/payple_pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/payple_pages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_icon.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700454166668</updated>
-      <workItem from="1700454168069" duration="1125000" />
+      <workItem from="1700454168069" duration="2602000" />
     </task>
     <task id="LOCAL-00001" summary="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리">
       <created>1700454549273</created>
@@ -78,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700454605525</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="이메일 + 개발자센터 분리 완료">
+      <created>1700455338055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700455338055</updated>
+    </task>
+    <task id="LOCAL-00004" summary="이메일 + 개발자센터 분리 완료">
+      <created>1700455346140</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700455346140</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +151,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리 분리" />
     <MESSAGE value="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리" />
-    <option name="LAST_COMMIT_MESSAGE" value="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리" />
+    <MESSAGE value="이메일 + 개발자센터 분리 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="이메일 + 개발자센터 분리 완료" />
   </component>
 </project>

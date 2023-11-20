@@ -26,7 +26,14 @@
     <div class="title">
         <h2>Page List</h2>
         <a href="#" class="btn_control_all close"></a>
+        <!--링크-->
 <!--            <p><a href="#" class=""><i class="far fa-square"></i><i class="far fa-check-square"></i> 진척률 보기</a></p>-->
+        <!--링크-->
+        <div class="link_area">
+            <a href="https://payple-onboard.web.app/" class="link_btn">온보딩</a>
+            <a href="#" class="link_btn active">관리자+이메일</a>
+            <a href="#" class="link_btn">팀관리자</a>
+        </div>
     </div>
     <div class="wrap_scroll">
 
@@ -120,8 +127,8 @@
     var source = $('#list-template').html() //jQuery
     var template = Handlebars.compile(source) //컴파일
     $('.wrap_scroll')
-        .append(template(data.email))
         .append(template(data.developercenter))
+        .append(template(data.email))
 </script>
 <script>
     $('.link').on('click', function () {
