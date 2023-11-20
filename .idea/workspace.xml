@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e393387-09ad-4c69-8bef-d91e41afbf08" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/include/common/header.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700454166668</updated>
       <workItem from="1700454168069" duration="4874000" />
-      <workItem from="1700459150603" duration="866000" />
+      <workItem from="1700459150603" duration="972000" />
     </task>
     <task id="LOCAL-00001" summary="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리">
       <created>1700454549273</created>
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700459947487</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&#10;수정 완료">
+      <created>1700460046494</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700460046494</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +140,7 @@
     <MESSAGE value="개발자센터 분리작업 진행" />
     <MESSAGE value="developer 수정작업 진행중" />
     <MESSAGE value="개발자센터 아이콘 정리 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="개발자센터 아이콘 정리 완료" />
+    <MESSAGE value="&#10;수정 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;수정 완료" />
   </component>
 </project>
