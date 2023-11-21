@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e393387-09ad-4c69-8bef-d91e41afbf08" name="변경" comment="관리자 이메일 수정 완료">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/PP_PC_01/Desktop/public/nproject-onboard",
+    "last_opened_file_path": "C:/Users/PP_PC_01/Desktop/public/nproject-developer",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -64,6 +62,7 @@
       <workItem from="1700459150603" duration="1457000" />
       <workItem from="1700461198852" duration="127000" />
       <workItem from="1700461353571" duration="7000" />
+      <workItem from="1700462153185" duration="633000" />
     </task>
     <task id="LOCAL-00001" summary="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리">
       <created>1700454549273</created>
