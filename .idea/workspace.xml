@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e393387-09ad-4c69-8bef-d91e41afbf08" name="변경" comment="관리자 이메일 수정 완료">
+      <change afterPath="$PROJECT_DIR$/src/img/icon/ico_interrogation.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/include/common/header-developer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/include/common/header-developer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/_developercenter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_developercenter.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +47,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer\src\img\icon" />
       <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer" />
       <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer\src\html" />
       <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer\src" />
@@ -63,6 +70,16 @@
       <workItem from="1700461198852" duration="127000" />
       <workItem from="1700461353571" duration="7000" />
       <workItem from="1700462153185" duration="633000" />
+      <workItem from="1700541242490" duration="27000" />
+      <workItem from="1700639290787" duration="526000" />
+      <workItem from="1700641354515" duration="633000" />
+      <workItem from="1700643134960" duration="505000" />
+      <workItem from="1700697772078" duration="4000" />
+      <workItem from="1700699749019" duration="643000" />
+      <workItem from="1700703145079" duration="35000" />
+      <workItem from="1701750399588" duration="318000" />
+      <workItem from="1701750811099" duration="16000" />
+      <workItem from="1701752140832" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리">
       <created>1700454549273</created>
@@ -153,6 +170,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
