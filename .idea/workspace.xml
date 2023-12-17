@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e393387-09ad-4c69-8bef-d91e41afbf08" name="변경" comment="관리자 이메일 수정 완료">
-      <change afterPath="$PROJECT_DIR$/src/img/icon/ico_interrogation.png" afterDir="false" />
+    <list default="true" id="3472ad98-a3bc-4ca8-b37e-9676bc0c3a92" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagelist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pagelist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagelist/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/pagelist/data/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/developercenter/웹훅_검색결과없음.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/developercenter/웹훅_검색결과없음.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_검색결과없음.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_검색결과없음.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_조회결과_국내.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_조회결과_통합.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_조회결과_해외.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/include/common/header-developer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/include/common/header-developer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_icon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/_developercenter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/_developercenter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,180 +24,38 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="259e8187-fbf0-4fc2-9d1c-d7cd576ecd85" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2YQO7DMbT5yJm3vIAj6K4qU3NAm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ZgpEAZXisoivMaIty39lIEZMJW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/PP_PC_01/Desktop/public/nproject-developer",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PP_PC_01/Desktop/public/nproject-developer-v2&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer\src\img\icon" />
-      <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer" />
-      <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer\src\html" />
-      <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer\src" />
-      <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer\src\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\PP_PC_01\Desktop\public\nproject-developer\src" />
-    </key>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="5e393387-09ad-4c69-8bef-d91e41afbf08" name="변경" comment="width값 수정 완료" />
-      <created>1700454166668</created>
+      <changelist id="3472ad98-a3bc-4ca8-b37e-9676bc0c3a92" name="변경" comment="" />
+      <created>1702853462183</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700454166668</updated>
-      <workItem from="1700454168069" duration="4874000" />
-      <workItem from="1700459150603" duration="1457000" />
-      <workItem from="1700461198852" duration="127000" />
-      <workItem from="1700461353571" duration="7000" />
-      <workItem from="1700462153185" duration="633000" />
-      <workItem from="1700541242490" duration="27000" />
-      <workItem from="1700639290787" duration="526000" />
-      <workItem from="1700641354515" duration="633000" />
-      <workItem from="1700643134960" duration="505000" />
-      <workItem from="1700697772078" duration="4000" />
-      <workItem from="1700699749019" duration="643000" />
-      <workItem from="1700703145079" duration="35000" />
-      <workItem from="1701750399588" duration="318000" />
-      <workItem from="1701750811099" duration="16000" />
-      <workItem from="1701752140832" duration="35000" />
+      <updated>1702853462183</updated>
+      <workItem from="1702853463671" duration="140000" />
+      <workItem from="1702853608228" duration="2743000" />
     </task>
-    <task id="LOCAL-00001" summary="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리">
-      <created>1700454549273</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1700454549273</updated>
-    </task>
-    <task id="LOCAL-00002" summary="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리">
-      <created>1700454605525</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1700454605525</updated>
-    </task>
-    <task id="LOCAL-00003" summary="이메일 + 개발자센터 분리 완료">
-      <created>1700455338055</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1700455338055</updated>
-    </task>
-    <task id="LOCAL-00004" summary="이메일 + 개발자센터 분리 완료">
-      <created>1700455346140</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1700455346140</updated>
-    </task>
-    <task id="LOCAL-00005" summary="링크 이미지 수정 진행중">
-      <created>1700456855467</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1700456855467</updated>
-    </task>
-    <task id="LOCAL-00006" summary="개발자센터 분리작업 진행">
-      <created>1700459092729</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1700459092729</updated>
-    </task>
-    <task id="LOCAL-00007" summary="developer 수정작업 진행중">
-      <created>1700459524950</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1700459524950</updated>
-    </task>
-    <task id="LOCAL-00008" summary="개발자센터 아이콘 정리 완료">
-      <created>1700459947487</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1700459947487</updated>
-    </task>
-    <task id="LOCAL-00009" summary="&#10;수정 완료">
-      <created>1700460046494</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1700460046494</updated>
-    </task>
-    <task id="LOCAL-00010" summary="개발자센터 분리 완료">
-      <created>1700460140966</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1700460140966</updated>
-    </task>
-    <task id="LOCAL-00011" summary="개발자센터 분리 완료">
-      <created>1700460296896</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1700460296896</updated>
-    </task>
-    <task id="LOCAL-00012" summary="관리자 이메일 수정 완료">
-      <created>1700461219116</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1700461219116</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리 분리" />
-    <MESSAGE value="개발자센터 + 이메일 &#10;기존 온보드 페이지와 분리" />
-    <MESSAGE value="이메일 + 개발자센터 분리 완료" />
-    <MESSAGE value="링크 이미지 수정 진행중" />
-    <MESSAGE value="개발자센터 분리작업 진행" />
-    <MESSAGE value="developer 수정작업 진행중" />
-    <MESSAGE value="개발자센터 아이콘 정리 완료" />
-    <MESSAGE value="&#10;수정 완료" />
-    <MESSAGE value="개발자센터 분리 완료" />
-    <MESSAGE value="관리자 이메일 수정 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="관리자 이메일 수정 완료" />
   </component>
 </project>

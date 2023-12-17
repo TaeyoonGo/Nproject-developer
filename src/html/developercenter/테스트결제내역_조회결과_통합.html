@@ -35,7 +35,7 @@
                         <div class="position_relative">
                             <input type="text" class="form_control _twoCalender" id="myDateRangePicker" name="dateRangePicker">
                             <label for="myDateRangePicker" class="input__date" onclick="openModal('modal01')">
-                                <i class="icon ico_calender" ></i>
+                                <i class="icon ico_calender"></i>
                             </label>
                         </div>
                     </div>
@@ -46,118 +46,96 @@
             </div>
             <div class="developer_card">
                 <div class="title_area">
-                    <p class="title test">조회결과 - 국내</p>
+                    <p class="title test">조회결과</p>
                 </div>
                 <div class="response_table">
                     <table>
                         <colgroup>
                             <col style="width: 50px">
                             <col style="width: 180px">
+                            <col style="width: 50px">
                             <col style="width: 110px">
+                            <col style="width: 55px">
                             <col style="width: 55px">
                             <col style="width: 120px">
                             <col style="width: 210px">
                             <col style="width: 240px">
                         </colgroup>
                         <thead>
-                            <tr>
+                        <tr>
                             <th class="text_center">No</th>
-                            <th>결제일시</th>
-                            <th>결제수단</th>
+                            <th class="text_center">결제일시</th>
+                            <th class="text_center">구분</th>
+                            <th class="text_center">결제수단</th>
                             <th class="text_center">상태</th>
+                            <th class="text_center">통화</th>
                             <th class="text_center">결제금액</th>
-                            <th>주문번호</th>
-                            <th>상품명</th>
+                            <th class="text_center">주문번호</th>
+                            <th class="text_center">상품명</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td class="empty_data no_search" colspan="7">조회결과가 없습니다.</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="developer_card">
-                <div class="title_area">
-                    <p class="title test">조회결과 - 해외</p>
-                </div>
-                <div class="response_table">
-                    <table>
-                        <colgroup>
-                            <col style="width: 50px">
-                            <col style="width: 180px">
-                            <col style="width: 110px">
-                            <col style="width: 55px">
-                            <col style="width: 55px">
-                            <col style="width: 120px">
-                            <col style="width: 210px">
-                            <col style="width: 240px">
-                        </colgroup>
-                        <thead>
-                            <tr>
-                            <th class="text_center">No</th>
-                            <th>결제일시</th>
-                            <th>결제수단</th>
-                            <th>상태</th>
-                            <th>통화</th>
-                            <th class="text_center">결제금액</th>
-                            <th>주문번호</th>
-                            <th>상품명</th>
-                        </tr>
-                        </thead>
-                        <tbody>
+                        <!--조회결과 있음 S-->
                         <tr>
                             <td class="text_center">10</td>
-                            <td class="">2023-06-29 17:23:59</td>
-                            <td>카드빌링</td>
-                            <td>승인</td>
-                            <td>KRW</td>
-                            <td class=" text_center">10,000,000</td>
-                            <td class="">O2023-2728-5039-6573</td>
-                            <td class="">이초아님의 처방전</td>
+                            <td class="text_center">2023-06-29 17:23:59</td>
+                            <td class="text_center">해외</td>
+                            <td class="text_center">카드빌링</td>
+                            <td class="text_center">승인</td>
+                            <td class="text_center">KRW</td>
+                            <td class="text_center">10,000,000</td>
+                            <td class="text_center">O2023-2728-5039-6573</td>
+                            <td class="text_center">이초아님의 처방전</td>
+                        </tr>
+                        <tr class="color_danger">
+                            <td class="text_center">10</td>
+                            <td class="text_center">2023-06-29 17:23:59</td>
+                            <td class="text_center">국내</td>
+                            <td class="text_center">카드빌링</td>
+                            <td class="text_center">취소</td>
+                            <td class="text_center">KRW</td>
+                            <td class="text_center">10,000,000</td>
+                            <td class="text_center">O2023-2728-5039-6573</td>
+                            <td class="text_center">이초아님의 처방전</td>
                         </tr>
                         <tr>
                             <td class="text_center">10</td>
-                            <td class="">2023-06-29 17:23:59</td>
-                            <td>카드빌링</td>
-                            <td>승인</td>
-                            <td>KRW</td>
-                            <td class=" text_center">10,000,000</td>
-                            <td class="">O2023-2728-5039-6573</td>
-                            <td class="">이초아님의 처방전</td>
+                            <td class="text_center">2023-06-29 17:23:59</td>
+                            <td class="text_center">해외</td>
+                            <td class="text_center">카드빌링</td>
+                            <td class="text_center">승인</td>
+                            <td class="text_center">KRW</td>
+                            <td class="text_center">10,000,000</td>
+                            <td class="text_center">O2023-2728-5039-6573</td>
+                            <td class="text_center">이초아님의 처방전</td>
+                        </tr>
+                        <tr class="color_danger">
+                            <td class="text_center">10</td>
+                            <td class="text_center">2023-06-29 17:23:59</td>
+                            <td class="text_center">국내</td>
+                            <td class="text_center">카드빌링</td>
+                            <td class="text_center">취소</td>
+                            <td class="text_center">KRW</td>
+                            <td class="text_center">10,000,000</td>
+                            <td class="text_center">O2023-2728-5039-6573</td>
+                            <td class="text_center">이초아님의 처방전</td>
                         </tr>
                         <tr>
                             <td class="text_center">10</td>
-                            <td class="">2023-06-29 17:23:59</td>
-                            <td>카드빌링</td>
-                            <td>승인</td>
-                            <td>KRW</td>
-                            <td class=" text_center">10,000,000</td>
-                            <td class="">O2023-2728-5039-6573</td>
-                            <td class="">이초아님의 처방전</td>
+                            <td class="text_center">2023-06-29 17:23:59</td>
+                            <td class="text_center">해외</td>
+                            <td class="text_center">카드빌링</td>
+                            <td class="text_center">승인</td>
+                            <td class="text_center">KRW</td>
+                            <td class="text_center">10,000,000</td>
+                            <td class="text_center">O2023-2728-5039-6573</td>
+                            <td class="text_center">이초아님의 처방전</td>
                         </tr>
-                        <tr>
-                            <td class="text_center">10</td>
-                            <td class="">2023-06-29 17:23:59</td>
-                            <td>카드빌링</td>
-                            <td>승인</td>
-                            <td>KRW</td>
-                            <td class=" text_center">10,000,000</td>
-                            <td class="">O2023-2728-5039-6573</td>
-                            <td class="">이초아님의 처방전</td>
-                        </tr>
-                        <tr>
-                            <td class="text_center">10</td>
-                            <td class="">2023-06-29 17:23:59</td>
-                            <td>카드빌링</td>
-                            <td>승인</td>
-                            <td>KRW</td>
-                            <td class=" text_center">10,000,000</td>
-                            <td class="">O2023-2728-5039-6573</td>
-                            <td class="">이초아님의 처방전</td>
-                        </tr>
+                        <!--조회결과 있음 E-->
 
+                        <!--조회결과 없음 s-->
+                        <!--<tr><td class="empty_data no_search" colspan="10">조회결과가 없습니다.</td></tr>-->
+                        <!--조회결과 없음 e-->
 
                         </tbody>
                     </table>
