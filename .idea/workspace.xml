@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3472ad98-a3bc-4ca8-b37e-9676bc0c3a92" name="변경" comment="">
+    <list default="true" id="3472ad98-a3bc-4ca8-b37e-9676bc0c3a92" name="변경" comment="변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagelist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pagelist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pagelist/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/pagelist/data/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/developercenter/웹훅_검색결과없음.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/developercenter/웹훅_검색결과없음.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_검색결과없음.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_검색결과없음.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_조회결과_국내.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_조회결과_통합.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/developercenter/테스트결제내역_조회결과_해외.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/include/common/header-developer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/include/common/header-developer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +17,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="a4e9399c-deec-4395-97ee-c5c9065f96ee" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,11 +48,35 @@
       <option name="presentableId" value="Default" />
       <updated>1702853462183</updated>
       <workItem from="1702853463671" duration="140000" />
-      <workItem from="1702853608228" duration="2743000" />
+      <workItem from="1702853608228" duration="3006000" />
+      <workItem from="1702883089764" duration="1671000" />
+      <workItem from="1702944496247" duration="1134000" />
+      <workItem from="1703579632581" duration="382000" />
+      <workItem from="1703580426898" duration="258000" />
+      <workItem from="1703634538910" duration="55000" />
+      <workItem from="1703736782680" duration="143000" />
+      <workItem from="1703812153945" duration="10000" />
+      <workItem from="1703813654533" duration="31000" />
+      <workItem from="1705554577910" duration="33000" />
+      <workItem from="1712629983150" duration="7449000" />
     </task>
+    <task id="LOCAL-00001" summary="개발자센터 수정 완료">
+      <created>1702856454337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702856454338</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="개발자센터 수정 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="개발자센터 수정 완료" />
   </component>
 </project>

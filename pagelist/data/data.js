@@ -200,16 +200,75 @@ data.developercenter = {
             page: 'white_ip_10개이상등록'
         },
         {
-            stateClass: 'confirm',
+            stateClass: 'complete',
             url: '테스트결제내역_검색결과없음',
             category: 'developercenter',
             page: '테스트결제내역_검색결과없음'
         },
         {
-            stateClass: 'confirm',
+            stateClass: 'complete',
             url: '테스트결제내역_조회결과_통합',
             category: 'developercenter',
             page: '테스트결제내역_조회결과_통합'
+        },
+    ]
+}
+data.failureEmail  = {
+    title: '장애알림이메일',
+    list: [
+        {
+            stateClass: 'waiting',
+            url: '슬랙_장애발송_이메일',
+            category: 'failureEmail',
+            page: '슬랙_장애발송_이메일'
+        },
+        {
+            stateClass: 'confirm',
+            url: '국내_시스템점검',
+            category: 'failureEmail',
+            page: '국내_시스템점검'
+        },
+        {
+            stateClass: 'confirm',
+            url: '해외_시스템점검',
+            category: 'failureEmail',
+            page: '해외_시스템점검'
+        },
+        {
+            stateClass: 'confirm',
+            url: '국내_장애발생',
+            category: 'failureEmail',
+            page: '국내_장애발생'
+        },
+        {
+            stateClass: 'confirm',
+            url: '해외_장애발생',
+            category: 'failureEmail',
+            page: '해외_장애발생'
+        },
+        {
+            stateClass: 'confirm',
+            url: '국내_장애_복구완료(즉시)',
+            category: 'failureEmail',
+            page: '국내_장애_복구완료(즉시)'
+        },
+        {
+            stateClass: 'confirm',
+            url: '해외_장애_복구완료(즉시)',
+            category: 'failureEmail',
+            page: '해외_장애_복구완료(즉시)'
+        },
+        {
+            stateClass: 'confirm',
+            url: '국내_장애_복구완료(원인파악이후)',
+            category: 'failureEmail',
+            page: '국내_장애_복구완료(원인파악이후)'
+        },
+        {
+            stateClass: 'confirm',
+            url: '해외_장애_복구완료(원인파악이후)',
+            category: 'failureEmail',
+            page: '해외_장애_복구완료(원인파악이후)'
         },
     ]
 }
