@@ -217,10 +217,16 @@ data.failureEmail  = {
     title: '장애알림이메일',
     list: [
         {
-            stateClass: 'waiting',
+            stateClass: 'confirm',
             url: '슬랙_장애발송_이메일',
             category: 'failureEmail',
             page: '슬랙_장애발송_이메일'
+        },
+        {
+            stateClass: 'confirm',
+            url: '슬랙_복구발송_이메일',
+            category: 'failureEmail',
+            page: '슬랙_복구발송_이메일'
         },
         {
             stateClass: 'confirm',
