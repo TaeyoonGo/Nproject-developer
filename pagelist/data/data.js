@@ -217,13 +217,13 @@ data.failureEmail  = {
     title: '장애알림이메일',
     list: [
         {
-            stateClass: 'confirm',
+            stateClass: 'complete',
             url: '슬랙_장애발송_이메일',
             category: 'failureEmail',
             page: '슬랙_장애발송_이메일'
         },
         {
-            stateClass: 'confirm',
+            stateClass: 'complete',
             url: '슬랙_복구발송_이메일',
             category: 'failureEmail',
             page: '슬랙_복구발송_이메일'
@@ -235,19 +235,19 @@ data.failureEmail  = {
             page: '국내_시스템점검'
         },
         {
-            stateClass: 'confirm',
+            stateClass: 'complete',
             url: '해외_시스템점검',
             category: 'failureEmail',
             page: '해외_시스템점검'
         },
         {
-            stateClass: 'confirm',
+            stateClass: 'complete',
             url: '국내_장애발생',
             category: 'failureEmail',
             page: '국내_장애발생'
         },
         {
-            stateClass: 'confirm',
+            stateClass: 'complete',
             url: '해외_장애발생',
             category: 'failureEmail',
             page: '해외_장애발생'
@@ -264,14 +264,15 @@ data.failureEmail  = {
             category: 'failureEmail',
             page: '해외_장애_복구완료(즉시)'
         },
+
         {
-            stateClass: 'confirm',
+            stateClass: 'complete',
             url: '국내_장애_복구완료(원인파악이후)',
             category: 'failureEmail',
             page: '국내_장애_복구완료(원인파악이후)'
         },
         {
-            stateClass: 'confirm',
+            stateClass: 'complete',
             url: '해외_장애_복구완료(원인파악이후)',
             category: 'failureEmail',
             page: '해외_장애_복구완료(원인파악이후)'
